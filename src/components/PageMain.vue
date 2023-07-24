@@ -75,11 +75,11 @@
       </section>
       <section class="about_us">
         <div class="text-container">
-          <p>cazzoculo</p>
-          <h1>cose scritte e sgargatubi</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam molestiae mollitia nam, aut accusantium cupiditate in officia ad magni, unde iure! Illum odio reprehenderit placeat.</p>
+          <p>About Us</p>
+          <h1>HIGH QUALITY CINEMATICS</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores alias recusandae, explicabo quis porro, dolor corporis nobis, corrupti illo ex quibusdam incidunt ducimus exercitationem ullam eos cupiditate id sit sint!</p>
           <button>
-            read more
+            READ MORE
           </button>
         </div>
       </section>
@@ -141,18 +141,23 @@
         background-size: 100% 100%;
         width: calc(100vw - 40px);
         padding: 200px;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
 
         .text-container{
           color: white;
-          text-align:right;
+          height: 100%;
+          max-width:40%;
 
           p{
             font-size: 22px;
+            margin-bottom: 30px;
           }
 
           h1{
             margin-bottom: 30px;
-            font-size: 70px;
+            font-size: 35px;
           }
 
           button{
