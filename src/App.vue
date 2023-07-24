@@ -1,6 +1,17 @@
 <script >
+
+  import PageHeader from '../src/components/PageHeader.vue'
+  import PageMain from '../src/components/PageMain.vue'
+  import PageFooter from '../src/components/PageFooter.vue'
+  import { store } from './store.js'
+
+
   export default {
     components:{
+      PageHeader,
+      PageMain,
+      PageFooter,
+      store,
 
     },
     data(){
@@ -16,17 +27,11 @@
 
 <template>
 
-    <header>  
-      header
-    </header>
+  <PageHeader />
 
-    <main>
-      main
-    </main>
+  <PageMain />
 
-    <footer>
-      footer
-    </footer>
+  <PageFooter />
 
 </template>
 
