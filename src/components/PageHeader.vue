@@ -17,9 +17,10 @@
 <template>
 
     <header>  
+        <!-- nav -->
       <div class="header_nav">
         <div class="logo">
-            logo
+            <img src="../assets/img/logo.svg" alt="">
         </div>
         <div class="header_links">
             <ul>
@@ -46,14 +47,17 @@
             </div>
         </div>
       </div>
+        <!-- carousel -->
       <div class="header_carousel">
         <img class="active" src="https://picsum.photos/1900/800" alt="">
+        <!-- carousel arrows -->
         <div class="left_arrow_container">
             <img src="../assets/img/left-arrow.svg" alt="" class="left_arrow">
         </div>
         <div class="right_arrow_container">
             <img src="../assets/img/right-arrow.svg" alt="" class="right_arrow">
         </div>
+        <!-- carousel text -->
         <div class="text-container">
             <p>
                 cinemato studio
@@ -87,6 +91,11 @@
 
             .logo{
                 flex-grow: 0;
+
+                img{
+                    width: 200px;
+                    height: 100px;
+                }
             }
 
             .header_links{
