@@ -282,6 +282,7 @@
 
         </div>
       </section>
+      <!-- PARTNERS -->
       <section class="statistic partners">
         <div class="stat">
           <img src="" alt="immagine">
@@ -303,7 +304,35 @@
           <img src="" alt="immagine">
         </div>
       </section>
-      <section></section>
+      <!-- COLLABORATIONS -->
+      <section class="collaborate">
+        <div class="collab_info">
+          <p>COLLABORATE</p>
+          <h1>
+            WANT TO WORK WHIT US?
+            LEAVE US A MESSAGE!
+          </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, minus? Eligendi esse velit, modi magnam nihil, rem veniam placeat laboriosam iusto pariatur consequuntur voluptates doloribus voluptatem quasi maiores assumenda iure.
+          </p>
+        </div>
+        <div class="collab_form">
+          <div>
+            <input type="text" placeholder="Your Name"   required>
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <div>
+            <input type="numbers" placeholder="Mobile Number" required>
+            <input type="password" placeholder="Your Pincode" required>
+          </div>
+          <div>
+            <input type="text" placeholder="Enter your message">
+          </div>
+          <button>
+            SUBMIT NOW
+          </button>
+        </div>
+      </section>
     </main>
 
 </template>
@@ -479,6 +508,74 @@
       background-image: url(../assets/img/Parallax-03.jpg);
       background-size:100%;
       background-position-y:-250px;
+    }
+
+    .collaborate{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 300px;
+      
+
+      .collab_info{
+        text-align: justify;
+        max-width: 45%;
+        height: 100%;
+        padding-bottom: 100px;
+
+        p{
+          line-height: 30px;
+          max-width: 70%;
+        }
+
+        h1{
+          max-width: 80%;
+          margin: 35px 0;
+          font-size: 40px;
+          font-weight: 900;
+        }
+
+      }
+
+      .collab_form{
+        width: 65%;
+
+        
+        div:first-child{
+          padding-top: 200px;
+        }
+
+        div{
+          margin-bottom: 20px;
+        }
+        
+        div>input {
+          border: 0;
+          background-color: lightgrey;
+          padding: 15px;
+          margin: 0 10px 10px 0;
+          width: calc(50% - 10px);
+
+        }
+        
+        div:nth-child(3){
+          
+          input{
+            width: 100%;
+            height: 100%;
+            padding-bottom: 250px;
+          }
+        }
+
+        button{
+          border: 0;
+          color: white;
+          background-color: black;
+          padding: 20px 50px;
+          font-weight: bolder;
+          width: 100%;
+        }
+      }
     }
 
   }
