@@ -221,6 +221,7 @@
 
         </div>
       </section>
+      <!-- TEAM CAROUSEL -->
       <section class="team_carousel">
         <div class="text-container">
           <img src="../assets/img/image (20).svg" alt="virgolette">
@@ -245,8 +246,63 @@
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
+      <!-- LATEST NEWS -->
+      <section class="what_we_do">
+        <div class="section_headers">
+          <p>LATEST NEWS</p>
+          <h1>ARTICLES UPDATED DAILY</h1>
+        </div>
+        <div class="cards_container">
+          <div class="card">
+            <img src="https://picsum.photos/200" alt="">
+            <P>data</P>
+            <h1>titolo card</h1>
+            <p>
+              card info
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="https://picsum.photos/200" alt="">
+            <P>data</P>
+            <h1>titolo card</h1>
+            <p>
+              card info
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="https://picsum.photos/200" alt="">
+            <P>data</P>
+            <h1>titolo card</h1>
+            <p>
+              card info
+            </p>
+          </div>
+
+        </div>
+      </section>
+      <section class="statistic partners">
+        <div class="stat">
+          <img src="" alt="immagine">
+        </div>
+
+        <div class="stat">
+          <img src="" alt="immagine">
+        </div>
+
+        <div class="stat">
+          <img src="" alt="immagine">
+        </div>
+
+        <div class="stat">
+          <img src="" alt="immagine">
+        </div>
+
+        <div class="stat">
+          <img src="" alt="immagine">
+        </div>
+      </section>
       <section></section>
     </main>
 
@@ -411,12 +467,18 @@
           font-size: 40px;
 
           :nth-child(2){
-            margin: 0 10px;
+            margin: 0 5px;
           }
         }
 
       }
 
+    }
+
+    .partners{
+      background-image: url(../assets/img/Parallax-03.jpg);
+      background-size:100%;
+      background-position-y:-250px;
     }
 
   }
