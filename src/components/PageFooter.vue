@@ -1,14 +1,14 @@
-
-
-
 <script >
+
+  import { store } from '../store.js'
+
   export default {
     components:{
 
     },
     data(){
       return{
-
+        store,
       }
     },
     methods:{
@@ -28,16 +28,16 @@
           <ul>
             <li>
               <img src="../assets/img/footer-location-dot-solid.svg" alt="">
-              <p>2/45 Tower Street, new york</p>
-              <p>USA</p>
+              <p>{{store.contact_info.address.street}}</p>
+              <p>{{ store.contact_info.address.state }}</p>
             </li>
             <li>
               <img src="../assets/img/footer-phone-solid.svg" alt="">
-              <p>Call Us On 0800 840 1010</p>
+              <p>{{ store.contact_info.number }}</p>
             </li>
             <li>
               <img src="../assets/img/footer-envelope-soli.svg" alt="">
-              <p>Demo@Example.Com</p>
+              <p>{{ store.contact_info.email }}</p>
             </li>
           </ul>
         </div>
@@ -46,11 +46,7 @@
             INFORMATION
           </h1>
           <ul>
-            <li>Product Support</li>
-            <li>Checkout</li>
-            <li>Report Abuse</li>
-            <li>Redeem Voucher</li>
-            <li>Order Status</li>
+            <li v-for="(number, i) in store.info_links" :key="number">{{ store.info_links[i] }}</li>
           </ul>
         </div>
         <div>
@@ -58,11 +54,7 @@
             USEFUL LINKS
           </h1>
           <ul>
-            <li>Policies & Rules</li>
-            <li>Privacy Policy</li>
-            <li>License Policy</li>
-            <li>My Account</li>
-            <li>Locality</li>
+            <li v-for="(number, i) in store.useful_links" :key="number">{{ store.useful_links[i] }}</li>
           </ul>
         </div>
         <div class="newsletter">

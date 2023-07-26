@@ -12,7 +12,7 @@
     },
     methods:{
 
-    }
+    },
   }
 </script>
 
@@ -34,9 +34,7 @@
                     <img src="../assets/img/image (7).svg" alt="">
                     <div class="dropdown">
                         <ul class="dropdown_links">
-                            <li>SERVICES</li>
-                            <li>OUR WORK FLOW</li>
-                            <li>VIDEO THUMBNAIL TYPE</li>
+                            <li v-for="(number, i) in store.nav_dropdown" :key="number">{{ store.nav_dropdown[i] }}</li>
                         </ul>
                     </div>
                 </li>
