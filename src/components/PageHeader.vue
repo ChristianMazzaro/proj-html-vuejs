@@ -22,27 +22,50 @@
         <div class="logo">
             <img src="../assets/img/logo.svg" alt="">
         </div>
+        <!-- HEADER-LINKS -->
         <div class="header_links">
             <ul>
-                <li>link</li>
-                <li>link</li>
-                <li>link</li>
-                <li>link</li>
-                <li>link</li>
-                <li>link</li>
-                <li>link</li>
+                <li>HOME</li>
+                <li>BLOG</li>
+                <li>
+                    PAGES
+                    <img src="../assets/img/image (7).svg" alt="">
+                    <div class="dropdown">
+                        <ul class="dropdown_links">
+                            <li>SERVICES</li>
+                            <li>OUR WORK FLOW</li>
+                            <li>VIDEO THUMBNAIL TYPE</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>ABOUT</li>
+                <li>CONTACTS</li>
+                <li>GALLERY</li>
+                <li>
+                    SHOP
+                    <img src="../assets/img/image (7).svg" alt="">
+                </li>
             </ul>
         </div>
+        <!-- ICONS -->
         <div class="icons">
             <div id="magnifying_glass">
-                lente
+                <img src="../assets/img/image (8).svg" alt="">
             </div>
             <div>
                 <ul>
-                    <li>icona</li>
-                    <li>icona</li>
-                    <li>icona</li>
-                    <li>icona</li>
+                    <li>
+                        <img src="../assets/img/image (9).svg" alt="">
+                    </li>
+                    <li>
+                        <img src="../assets/img/image (10).svg" alt="">
+                    </li>
+                    <li>
+                        <img src="../assets/img/image (11).svg" alt="">
+                    </li>
+                    <li>
+                        <img src="../assets/img/image (12).svg" alt="">
+                    </li>
                 </ul>
             </div>
         </div>
@@ -77,16 +100,32 @@
     <style lang="scss">
 
     header{
-        padding: 20px;
+        background-color: #f2f2f2;
 
         .header_nav{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            background-color: #ffffff;
+            padding: 0 20px;
+            ul{
 
-            li{
-                list-style: none;
-                display: inline-block;
+                :first-child{
+                    
+                    img{
+                        width: 13px;
+                    }
+                }
+
+                li{
+                    list-style: none;
+                    display: inline-block;
+
+                    img{
+                        width: 20px;
+                        margin-right: 15px;
+                    }
+                }
             }
 
             .logo{
@@ -106,9 +145,51 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
+                    .dropdown{
+                        display: none;
+
+
+                        .dropdown_links{
+                            display: block;
+                            color: white;
+                            position: absolute;
+                            bottom: - 149px;
+                            left: - 5px;
+                            z-index: 1;
+
+                            li{
+                                margin: 0;
+                                border-bottom: 1px solid lightgrey;
+                                background-color: black;
+                                padding: 10px 0px 10px 10px;
+                                font-size: 12px;
+                                width: 200px;
+
+                            }
+                        }
+                        
+                    }
+
+                    :nth-child(3){
+                        position: relative;
+                        &:hover{
+                            .dropdown{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-end;
+                            }
+                       }
+                    }
                     
                     li{
                         margin-left: 50px;
+                        display: flex;
+
+                        img{
+                           width: 13px;
+                           align-self: flex-end;
+                        }
                     }
                 }      
             }
@@ -133,12 +214,10 @@
                     }
                 }
             }
-
-
         }
 
         .header_carousel{
-            padding: 10px 0;
+            padding: 0 20px;
             position: relative;
 
             img{
@@ -170,7 +249,7 @@
                 padding:15px;
                 position: absolute;
                 top: 450px;
-                left: 20px;
+                left: 40px;
                     
                 .left_arrow{
                     width: 15px;

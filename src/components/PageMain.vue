@@ -341,6 +341,7 @@
 
   main{
     padding: 0 20px;
+    background-color: #f2f2f2;
 
     .what_we_do{
       text-align: center;
