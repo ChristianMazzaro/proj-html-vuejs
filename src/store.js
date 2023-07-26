@@ -21,6 +21,25 @@ export const store = reactive({
         'VIDEO THUMBNAIL TYPE',
     ],
 
+    // slides : [
+    //     {
+    //     image: '../assets/img/01.jpg',
+    //         firstName: 'Marvel\'s Spiderman Miles Morale',
+    //         lastName:'',
+    //         text: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.',
+    //     }, {
+    //         image: '../assets/img/02.jpg',
+    //         firstName: 'Ratchet & Clank: Rift Apart',
+    //         lastName:'',
+    //         text: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.',
+    //     }, {
+    //         image: '../assets/img/03.jpg',
+    //         firstName: 'Fortnite',
+    //         lastName:'',
+    //         text: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.",
+    //     },
+    // ],
+
     contact_info:{
         address:{
             street:'2/45 Tower Street, new york',

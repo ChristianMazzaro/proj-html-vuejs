@@ -72,7 +72,7 @@
       </div>
         <!-- carousel -->
       <div class="header_carousel">
-        <img class="active" src="https://picsum.photos/1900/800" alt="">
+        <img class="active" src="https://www.e-duesse.it/wp-content/uploads/2023/04/produzione.jpg" alt="">
         <!-- carousel arrows -->
         <div class="left_arrow_container">
             <img src="../assets/img/left-arrow.svg" alt="" class="left_arrow">
@@ -222,7 +222,9 @@
 
             img{
                 width: calc(100vw - 40px);
+                height: 900px;
                 display: none;
+                filter: brightness(0.5);
 
                 &.active{
                     display: block;
