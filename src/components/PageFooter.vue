@@ -28,15 +28,16 @@
           <ul>
             <li>
               <img src="../assets/img/footer-location-dot-solid.svg" alt="">
-              link
+              <p>2/45 Tower Street, new york</p>
+              <p>USA</p>
             </li>
             <li>
               <img src="../assets/img/footer-phone-solid.svg" alt="">
-              link
+              <p>Call Us On 0800 840 1010</p>
             </li>
             <li>
               <img src="../assets/img/footer-envelope-soli.svg" alt="">
-              link
+              <p>Demo@Example.Com</p>
             </li>
           </ul>
         </div>
@@ -45,11 +46,11 @@
             INFORMATION
           </h1>
           <ul>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
+            <li>Product Support</li>
+            <li>Checkout</li>
+            <li>Report Abuse</li>
+            <li>Redeem Voucher</li>
+            <li>Order Status</li>
           </ul>
         </div>
         <div>
@@ -57,14 +58,14 @@
             USEFUL LINKS
           </h1>
           <ul>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
+            <li>Policies & Rules</li>
+            <li>Privacy Policy</li>
+            <li>License Policy</li>
+            <li>My Account</li>
+            <li>Locality</li>
           </ul>
         </div>
-        <div>
+        <div class="newsletter">
           <h1>
             NEWSLETTER
           </h1>
@@ -77,7 +78,7 @@
             </li>
             <li>
               <button>
-                subscribe
+                SUBSCRIBE
               </button>
             </li>
           </ul>
@@ -101,21 +102,34 @@
         display: flex;
         justify-content: space-evenly;
         color: white;
-        padding: 50px 100px;
+        padding: 100px 100px;
+
+        h1{
+          font-size: 15px;
+          padding-bottom: 20px;
+        }
         
         ul>li{
           list-style: none;
           margin-bottom: 10px;
           color: lightgrey;
 
+          :nth-child(2){
+            display: inline-block;
+          }
+
+          :nth-child(3){
+            padding-left: 35px;
+          }
+
           img{
-            width: 20px;
+            width: 13px;
             margin-right: 20px;
           }
 
           input{
             padding: 15px;
-            width: 100%;
+            width: 90%;
             border: 0;
             background-color: rgba(48, 46, 46, 0.5);
             color: lightgrey;
@@ -128,16 +142,28 @@
             font-weight: bolder;
           }
         }
+        
+        li:hover{
+          color: white;
+        }
+
+        .newsletter{
+          ul{
+            :first-child{
+              max-width: 250px;
+            }
+          }
+        }
       }
       
       hr{
-        border-color: lightgrey;
+        border-color: #666666;
         width: 80%;
         margin: 0 auto;
       }
 
       .rights{
-        color: white;
+        color: lightgrey;
         display: flex;
         align-items: center;
         justify-content: center;
