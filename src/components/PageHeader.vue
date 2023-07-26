@@ -1,11 +1,13 @@
 <script >
+    import { store } from '../store.js'
+
   export default {
     components:{
-
+        store,
     },
     data(){
       return{
-
+        store
       }
     },
     methods:{
@@ -25,10 +27,10 @@
         <!-- HEADER-LINKS -->
         <div class="header_links">
             <ul>
-                <li>HOME</li>
-                <li>BLOG</li>
+                <li>{{store.nav_data[0]}}</li>
+                <li>{{store.nav_data[1]}}</li>
                 <li>
-                    PAGES
+                    {{store.nav_data[2]}}
                     <img src="../assets/img/image (7).svg" alt="">
                     <div class="dropdown">
                         <ul class="dropdown_links">
@@ -38,11 +40,11 @@
                         </ul>
                     </div>
                 </li>
-                <li>ABOUT</li>
-                <li>CONTACTS</li>
-                <li>GALLERY</li>
+                <li>{{store.nav_data[3]}}</li>
+                <li>{{store.nav_data[4]}}</li>
+                <li>{{store.nav_data[5]}}</li>
                 <li>
-                    SHOP
+                    {{store.nav_data[6]}}
                     <img src="../assets/img/image (7).svg" alt="">
                 </li>
             </ul>

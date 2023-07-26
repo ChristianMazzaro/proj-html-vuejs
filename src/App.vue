@@ -16,7 +16,7 @@
     },
     data(){
       return{
-
+        store
       }
     },
     methods:{
@@ -32,7 +32,6 @@
   <PageMain />
 
   <PageFooter />
-
 </template>
 
 <style lang="scss">
