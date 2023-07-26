@@ -304,7 +304,7 @@
           <img src="" alt="immagine">
         </div>
       </section>
-      <!-- COLLABORATIONS -->
+      <!-- COLLAB-->
       <section class="collaborate">
         <div class="collab_info">
           <p>COLLABORATE</p>
@@ -515,6 +515,7 @@
       align-items: center;
       justify-content: center;
       padding: 0 300px;
+      padding-bottom: 50px;
       
 
       .collab_info{
@@ -539,7 +540,6 @@
 
       .collab_form{
         width: 65%;
-
         
         div:first-child{
           padding-top: 200px;
