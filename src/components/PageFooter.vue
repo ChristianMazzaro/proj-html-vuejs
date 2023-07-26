@@ -106,6 +106,7 @@
         ul>li{
           list-style: none;
           margin-bottom: 10px;
+          color: lightgrey;
 
           img{
             width: 20px;
@@ -116,6 +117,8 @@
             padding: 15px;
             width: 100%;
             border: 0;
+            background-color: rgba(48, 46, 46, 0.5);
+            color: lightgrey;
           }
 
           button{
