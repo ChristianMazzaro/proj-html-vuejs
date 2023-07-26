@@ -20,55 +20,55 @@
       <!-- OFFERS -->
       <section class="what_we_do">
         <div class="section_headers">
-          <p>pelicula studio</p>
+          <p>PELICULA STUDIO</p>
           <h1>THIS IS WHAT WE DO</h1>
         </div>
         <div class="cards_container">
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/image (14).svg" alt="">
+            <h1>ARRAY OF EQUIPMENT</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda esse praesentium commodi illo 
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/image (16).svg" alt="">
+            <h1>NEW TECHNOLOGIES</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda esse praesentium commodi illo 
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/image (18).svg" alt="">
+            <h1>VERSATILE ACTORS</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda esse praesentium commodi illo 
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/image (15).svg" alt="">
+            <h1>TOP DIRECTORS</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda esse praesentium commodi illo 
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/image (17).svg" alt="">
+            <h1>MINUTE EDITING</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda esse praesentium commodi illo 
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/image (19).svg" alt="">
+            <h1>VERSATILE ACTORS</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda esse praesentium commodi illo 
             </p>
           </div>
 
@@ -85,58 +85,58 @@
           </button>
         </div>
       </section>
-      <!-- BEST HITS MOVIES -->
-      <section class="what_we_do">
+      <!-- BEST HITS MOVIES GALLERY -->
+      <section class="what_we_do gallery">
         <div class="section_headers">
           <p>YOUR WATCHLIST</p>
           <h1>BEST HITS MOVIES</h1>
         </div>
         <div class="cards_container">
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Gallery-01.jpg" alt="">
+            <h1>SEVENTEENTH SUMMER</h1>
             <p>
-              card info
+              Commercial, Music Video.
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Gallery-02.jpg" alt="">
+            <h1>A MESSAGE TO SPACE</h1>
             <p>
-              card info
+              Short Film
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Gallery-03.jpg" alt="">
+            <h1>THE MOST BEAUTIFUL THING</h1>
             <p>
-              card info
+              Music Video
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Gallery-04.jpg" alt="">
+            <h1>PERMISSION TO SPEAK</h1>
             <p>
-              card info
+              Documentary
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Gallery-05.jpg" alt="">
+            <h1>EXPLORE OUR SPACE</h1>
             <p>
-              card info
+              Film noir
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Gallery-06.jpg" alt="">
+            <h1>FILM PRODUCTION</h1>
             <p>
-              card info
+              Blaxploitation
             </p>
           </div>
 
@@ -149,34 +149,34 @@
             158
           </h1>
           <p>
-            satisfied client
+            SATISFIED CLIENTS
           </p>
         </div>
 
         <div class="stat">
           <h1>
-            158
+            3+
           </h1>
           <p>
-            satisfied client
+            OUR PROJECTS
           </p>
         </div>
 
         <div class="stat">
           <h1>
-            158
+            1,906
           </h1>
           <p>
-            satisfied client
+            CUP OF COFFEE
           </p>
         </div>
 
         <div class="stat">
           <h1>
-            158
+            2
           </h1>
           <p>
-            satisfied client
+            OUR AWARDS
           </p>
         </div>
       </section>
@@ -188,34 +188,34 @@
         </div>
         <div class="cards_container _4_cards">
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Team-01.jpg" alt="">
+            <h1>FABRICIO GUERRA</h1>
             <p>
-              card info
+              Main Director
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Team-02.jpg" alt="">
+            <h1>UMBERTO PAGODA</h1>
             <p>
-              card info
+              Main Writer
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Team-03.jpg" alt="">
+            <h1>GLORIA RICCASSO</h1>
             <p>
-              card info
+              Main Producer
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <h1>titolo card</h1>
+            <img src="../assets/img/Team-04.jpg" alt="">
+            <h1>LIO NAPOIN</h1>
             <p>
-              card info
+              Cameraman
             </p>
           </div>
 
@@ -229,13 +229,13 @@
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.
           </p>
           <div class="staff_profile">
-            <img src="" alt="immagine profilo">
+            <img src="../assets/img/01.jpg" alt="immagine profilo">
             <div class="staff_info">
               <h1>
-                nome
+                JOHN DOE
               </h1>
               <p>
-                ruolo
+                Designer
               </p>
             </div>
           </div>
@@ -247,36 +247,36 @@
         </div>
       </section>
       <!-- LATEST NEWS -->
-      <section class="what_we_do">
+      <section class="what_we_do latest_news">
         <div class="section_headers">
           <p>LATEST NEWS</p>
           <h1>ARTICLES UPDATED DAILY</h1>
         </div>
         <div class="cards_container">
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <P>data</P>
-            <h1>titolo card</h1>
+            <img src="../assets/img/blog07.jpg" alt="">
+            <P>November 06 , 2021 By Admin</P>
+            <h1>RECAP YOUR LATEST COMPANY EVENT</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dignissimos fuga eveniet dolorum sequi ullam!
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <P>data</P>
-            <h1>titolo card</h1>
+            <img src="../assets/img/blog01.jpg" alt="">
+            <P>May 27 , 2022 By Admin</P>
+            <h1>HOW TO EDIT A FILM SCORE TO SERVE</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dignissimos fuga eveniet dolorum sequi ullam!
             </p>
           </div>
 
           <div class="card">
-            <img src="https://picsum.photos/200" alt="">
-            <P>data</P>
-            <h1>titolo card</h1>
+            <img src="../assets/img/blog02.jpg" alt="">
+            <P>May 07 , 2022 By Admin</P>
+            <h1>ARE YOU READY TO MAKE IT AWESOME</h1>
             <p>
-              card info
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dignissimos fuga eveniet dolorum sequi ullam!
             </p>
           </div>
 
@@ -285,23 +285,23 @@
       <!-- PARTNERS -->
       <section class="statistic partners">
         <div class="stat">
-          <img src="" alt="immagine">
+          <img src="../assets/img/03.png" alt="immagine">
         </div>
 
         <div class="stat">
-          <img src="" alt="immagine">
+          <img src="../assets/img/04.png" alt="immagine">
         </div>
 
         <div class="stat">
-          <img src="" alt="immagine">
+          <img src="../assets/img/05.png" alt="immagine">
         </div>
 
         <div class="stat">
-          <img src="" alt="immagine">
+          <img src="../assets/img/01.png" alt="immagine">
         </div>
 
         <div class="stat">
-          <img src="" alt="immagine">
+          <img src="../assets/img/02.png" alt="immagine">
         </div>
       </section>
       <!-- COLLAB-->
@@ -341,7 +341,7 @@
 
   main{
     padding: 0 20px;
-    background-color: #f2f2f2;
+    background-color: white;
 
     .what_we_do{
       text-align: center;
@@ -358,6 +358,10 @@
           font-size: 45px;
         }
 
+        P{
+          font-size: small;
+        }
+
       }
 
       .cards_container{
@@ -370,13 +374,34 @@
 
         .card{
           width: calc(((100% / 3) * 1) - 40px);
+          padding: 20px 50px;
           
           img{
-            width: 80%;
+            width: 15%;
+          }
+
+          h1{
+            font-size: 20px;
+            margin: 10px 0;
+          }
+
+          p{
+            text-align: center;
+            color: #666666;
           }
         }
       }
 
+    }
+
+    .gallery{
+      .cards_container{
+        .card{
+          img{
+            width: 100%;
+          }
+        }
+      }
     }
 
     .about_us{
@@ -443,6 +468,10 @@
 
       >.card{
         width: calc(((100% / 4) * 1) - 40px) !important;
+
+        img{
+          width: 100% !important;
+        }
       }
     }
 
@@ -475,7 +504,7 @@
         }
 
         h1{
-          font-size: 22px;
+          font-size: 18px;
         }
 
         .staff_profile{
@@ -483,12 +512,21 @@
           text-align: center;
           justify-content: center;
           align-items: center;
-          margin: 10px;
+          margin: 30px;
 
           .staff_info{
             display:flex ;
             flex-direction: column;
             margin: 0 10px;
+
+            p{
+              line-height: 15px;
+              font-size: 15px;
+            }
+          }
+
+          img{
+            border-radius: 50%;
           }
         }
 
@@ -498,11 +536,36 @@
 
           :nth-child(2){
             margin: 0 5px;
+            color: #666666;
+          }
+
+          :nth-child(3){
+            color: #666666;
           }
         }
 
       }
 
+    }
+
+    .latest_news{
+      padding: 95px 0;
+      .cards_container{
+        padding: 0;
+        .card{
+          padding: 0;
+          text-align: left;
+          img{
+            width: 500px;
+            height: 350px;
+          }
+          p{
+            text-align: left;
+            margin: 10px 0;
+            max-width: 80%;
+          }
+        }
+      }
     }
 
     .partners{
@@ -552,10 +615,12 @@
         
         div>input {
           border: 0;
-          background-color: lightgrey;
+          background-color: #f2f2f2;
           padding: 15px;
           margin: 0 10px 10px 0;
           width: calc(50% - 10px);
+          font-weight: bolder;
+          font-size: 15px;
 
         }
         
