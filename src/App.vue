@@ -40,9 +40,6 @@
         return this.activeIndex
       },
 
-
-
-      
     }
   }
 </script>
