@@ -16,19 +16,41 @@
     },
     data(){
       return{
-        store
+        store,
+        activeIndex:0,
       }
     },
     methods:{
+      nextImg_nav(){
 
+        this.activeIndex ++
+        if (this.activeIndex > store.nav_slides.length - 1) {
+          this.activeIndex = 0;
+        }
+        console.log(this.activeIndex)
+        return this.activeIndex
+      },
+
+      nextImg(){
+        this.activeIndex ++
+        if (this.activeIndex > store.slides.length - 1) {
+          this.activeIndex = 0;
+        }
+        console.log(this.activeIndex)
+        return this.activeIndex
+      },
+
+
+
+      
     }
   }
 </script>
 
 <template>
-  <PageHeader />
+  <PageHeader :index="activeIndex" @nextSlide="nextImg_nav()"/>
 
-  <PageMain />
+  <PageMain :indexMain="activeIndex" @nextMember="nextImg()"/>
 
   <PageFooter />
 </template>

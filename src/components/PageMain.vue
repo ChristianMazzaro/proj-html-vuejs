@@ -8,20 +8,18 @@
     data(){
       return{
         store,
-        activeIndex: 0,
+        
       }
     },
     methods:{
-      greetings(){
 
-        this.activeIndex ++
-        if (this.activeIndex > store.slides.length - 1) {
-          this.activeIndex = 0;
-        }
-        console.log(this.activeIndex)
-        return this.activeIndex
-      },
     },
+    props:{
+      indexMain:{
+        type:Number,
+        default:0,
+      }
+    }
   }
 </script>
 
@@ -233,25 +231,25 @@
         </div>
       </section>
       <!-- TEAM CAROUSEL -->
-      <section class="team_carousel" @click="greetings()">
+      <section class="team_carousel" @click="$emit('nextMember')">
         <div class="text-container">
           <img src="../assets/img/image (20).svg" alt="virgolette">
           <p>
-            {{store.slides[activeIndex].text}}
+            {{store.slides[indexMain].text}}
           </p>
           <div class="staff_profile">
-            <img :src="store.slides[activeIndex].image" alt="immagine profilo">
+            <img :src="store.slides[indexMain].image" alt="immagine profilo">
             <div class="staff_info">
               <h1>
-                {{store.slides[activeIndex].Name}}
+                {{store.slides[indexMain].Name}}
               </h1>
               <p>
-                {{store.slides[activeIndex].role}}
+                {{store.slides[indexMain].role}}
               </p>
             </div>
           </div>
           <div class="carousel_dots">
-            <span v-for="(number,i ) in store.slides" :key="number" :class=" i == activeIndex ? 'active' : ''">&bull;</span> 
+            <span v-for="(number,i ) in store.slides" :key="number" :class=" i == indexMain ? 'active' : ''">&bull;</span> 
           </div>
         </div>
       </section>

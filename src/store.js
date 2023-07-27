@@ -26,6 +26,20 @@ export const store = reactive({
         'CHECK OUT',
         'OUR OFFERS',
     ],
+    
+    nav_slides : [
+        {
+            image: 'https://www.e-duesse.it/wp-content/uploads/2023/04/produzione.jpg',
+        },{
+            image: '../src/assets/img/blog03.jpg',
+        }, {
+            image: '../src/assets/img/blog04.jpg',
+        }, {
+            image: '../src/assets/img/blog05.jpg',
+        },{
+            image: '../src/assets/img/blog06.jpg',
+        },
+    ],
 
     slides : [
         {

@@ -7,13 +7,20 @@
     },
     data(){
       return{
-        store
+        store,
+        
       }
     },
     methods:{
 
         
     },
+    props:{
+        index:{
+            type:Number,
+            default:0,
+        }
+    }
   }
 </script>
 
@@ -76,8 +83,8 @@
         </div>
       </div>
         <!-- carousel -->
-      <div class="header_carousel">
-        <img class="active" src="https://www.e-duesse.it/wp-content/uploads/2023/04/produzione.jpg" alt="">
+      <div class="header_carousel" @click="$emit('nextSlide')">
+        <img class="active" :src="store.nav_slides[index].image" alt="">
         <!-- carousel arrows -->
         <div class="left_arrow_container">
             <img src="../assets/img/left-arrow.svg" alt="" class="left_arrow">
