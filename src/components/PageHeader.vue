@@ -44,6 +44,11 @@
                 <li>
                     {{store.nav_data[6]}}
                     <img src="../assets/img/image (7).svg" alt="">
+                    <div class="dropdown">
+                        <ul class="dropdown_links">
+                            <li v-for="(number, i) in store.nav_dropdown_shop" :key="number">{{ store.nav_dropdown_shop[i] }}</li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -171,7 +176,7 @@
                         
                     }
 
-                    :nth-child(3){
+                    :nth-child(3), :nth-child(7){
                         position: relative;
                         &:hover{
                             .dropdown{

@@ -21,6 +21,12 @@ export const store = reactive({
         'VIDEO THUMBNAIL TYPE',
     ],
 
+    nav_dropdown_shop:[
+        'CART',
+        'CHECK OUT',
+        'OUR OFFERS',
+    ],
+
     slides : [
         {
             image: '../src/assets/img/01.jpg',
@@ -36,7 +42,7 @@ export const store = reactive({
             image: '../src/assets/img/02.jpg',
             Name: 'Lucy Jonson',
             role:'Scenography',
-            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptate provident dicta unde!",
+            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nihil distinctio exercitationem quod officiis eos? Quis nulla aspernatur enim exercitationem quod officiis eos?",
         },
     ],
 
