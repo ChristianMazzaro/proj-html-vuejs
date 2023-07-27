@@ -12,12 +12,12 @@
     },
     methods:{
 
+        
     },
   }
 </script>
 
 <template>
-
     <header>  
         <!-- nav -->
       <div class="header_nav">

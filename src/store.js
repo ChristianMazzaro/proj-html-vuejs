@@ -21,24 +21,24 @@ export const store = reactive({
         'VIDEO THUMBNAIL TYPE',
     ],
 
-    // slides : [
-    //     {
-    //     image: '../assets/img/01.jpg',
-    //         firstName: 'Marvel\'s Spiderman Miles Morale',
-    //         lastName:'',
-    //         text: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.',
-    //     }, {
-    //         image: '../assets/img/02.jpg',
-    //         firstName: 'Ratchet & Clank: Rift Apart',
-    //         lastName:'',
-    //         text: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.',
-    //     }, {
-    //         image: '../assets/img/03.jpg',
-    //         firstName: 'Fortnite',
-    //         lastName:'',
-    //         text: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.",
-    //     },
-    // ],
+    slides : [
+        {
+            image: '../src/assets/img/01.jpg',
+            Name: 'John Doe',
+            role:'Designer',
+            text: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.',
+        }, {
+            image: '../src/assets/img/03.jpg',
+            Name: 'Turbato Thomas',
+            role:'CEO',
+            text: '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nihil distinctio exercitationem quod officiis eos? Quis nulla quia ad tempore ipsum aspernatur enim.',
+        }, {
+            image: '../src/assets/img/02.jpg',
+            Name: 'Lucy Jonson',
+            role:'Scenography',
+            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptate provident dicta unde!",
+        },
+    ],
 
     contact_info:{
         address:{

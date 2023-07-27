@@ -4,16 +4,24 @@
   export default {
     components:{
       store,
-      
     },
     data(){
       return{
         store,
+        activeIndex: 0,
       }
     },
     methods:{
+      greetings(){
 
-    }
+        this.activeIndex ++
+        if (this.activeIndex > store.slides.length - 1) {
+          this.activeIndex = 0;
+        }
+        console.log(this.activeIndex)
+        return this.activeIndex
+      },
+    },
   }
 </script>
 
@@ -225,27 +233,25 @@
         </div>
       </section>
       <!-- TEAM CAROUSEL -->
-      <section class="team_carousel">
+      <section class="team_carousel" @click="greetings()">
         <div class="text-container">
           <img src="../assets/img/image (20).svg" alt="virgolette">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptate tempora minima consequuntur, omnis voluptas sequi quaerat sint. Sit, animi.
+            {{store.slides[activeIndex].text}}
           </p>
           <div class="staff_profile">
-            <img src="../assets/img/01.jpg" alt="immagine profilo">
+            <img :src="store.slides[activeIndex].image" alt="immagine profilo">
             <div class="staff_info">
               <h1>
-                JOHN DOE
+                {{store.slides[activeIndex].Name}}
               </h1>
               <p>
-                Designer
+                {{store.slides[activeIndex].role}}
               </p>
             </div>
           </div>
           <div class="carousel_dots">
-            <span>&bull;</span>
-            <span>&bull;</span>
-            <span>&bull;</span>
+            <span v-for="(number,i ) in store.slides" :key="number" :class=" i == activeIndex ? 'active' : ''">&bull;</span> 
           </div>
         </div>
       </section>
@@ -536,15 +542,12 @@
         .carousel_dots{
           text-align: center;
           font-size: 40px;
+          color: #666666;
 
-          :nth-child(2){
-            margin: 0 5px;
-            color: #666666;
+          .active{
+            color: white;
           }
 
-          :nth-child(3){
-            color: #666666;
-          }
         }
 
       }

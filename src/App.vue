@@ -26,7 +26,6 @@
 </script>
 
 <template>
-
   <PageHeader />
 
   <PageMain />
